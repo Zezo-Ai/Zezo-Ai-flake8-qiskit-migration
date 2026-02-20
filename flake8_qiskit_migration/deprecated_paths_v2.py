@@ -21,7 +21,7 @@ CLASSICALFUNCTION_V2 = {
 
 ASSEMBLER_V2 = {
     "qiskit.assembler": "{} has been removed in Qiskit 2.0; the transpilation pipeline handles circuits directly",
-    "qiskit.compiler.assemble": "{} has been removed in Qiskit 2.0; use `QuantumCircuit.assign_parameters()` for parameter binding",
+    "qiskit.compiler.assemble": "{} has been removed in Qiskit 2.0; backends now accept circuits directly",
     "qiskit.compiler.sequence": "{} has been removed in Qiskit 2.0 as part of Pulse removal",
     "qiskit.compiler.schedule": "{} has been removed in Qiskit 2.0 as part of Pulse removal",
 }
