@@ -36,7 +36,7 @@ PROVIDERS_V2 = {
     "qiskit.providers.Provider": "{} has been removed in Qiskit 2.0; remove `ProviderV1` as parent class",
     "qiskit.providers.ProviderV1": "{} has been removed in Qiskit 2.0; remove `ProviderV1` as parent class",
     "qiskit.providers.convert_to_target": "{} has been removed in Qiskit 2.0; migrate the input `BackendV1` to `BackendV2` and use its `.target`",
-    "qiskit.providers.models": "{} has been removed in Qiskit 2.0; use `Target` instead",
+    "qiskit.providers.models": "{} has been removed in Qiskit 2.0; these are not necessary without the removed `BackendV1`. If still using that, migrate to `BackendV2`",
     "qiskit.providers.BackendPropertyError": "{} has been removed in Qiskit 2.0",
     "qiskit.providers.BackendConfigurationError": "{} has been removed in Qiskit 2.0",
     # Fake backends based on BackendV1 (whole module except GenericBackendV2 and utils)
