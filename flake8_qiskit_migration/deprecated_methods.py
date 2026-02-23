@@ -9,7 +9,7 @@
 
 DEPRECATED_METHODS_V1 = {
     # QuantumCircuit / Instruction / Register .qasm() removed
-    "qasm": "{} has been removed in Qiskit 1.0; use `qiskit.qasm2.dumps(circuit)` instead",
+    "qasm": "QuantumCircuit.{} has been removed in Qiskit 1.0; use `qiskit.qasm2.dumps(circuit)` instead",
     # QuantumCircuit.bind_parameters → .assign_parameters()
     "bind_parameters": "{} has been removed in Qiskit 1.0; use `.assign_parameters()` instead",
     # Removed QC gate aliases
