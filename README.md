@@ -17,7 +17,7 @@ Flake8 plugin to detect deprecated/removed imports, methods, and arguments in Qi
 > QKT101/QKT102/QKT201 use heuristic detection (method name matching in files
 > that import `qiskit`). Without type inference, false positives are possible
 > but unlikely for the Qiskit-specific names we check. QKT202 tracks which
-> functions were imported from `qiskit` and has near-zero false positives.
+> functions were imported from `qiskit` and should have few false positives.
 
 > [!WARNING]
 > This tool does not detect assignments such as `qk = qiskit` (although it can
